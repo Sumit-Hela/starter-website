@@ -15,6 +15,7 @@
   width: 100%;
   z-index: 0;
   position: relative;
+
 }
 .first-bg-color{
   background: var(--primary-color);
@@ -78,7 +79,21 @@
   transition: all ease-in-out 0.2s;
 }
 /* navbar end */
-
+/* info started*/
+.info-area {
+  background: #b12424;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info{
+  width: 200px;
+  height: 200px;
+  background: var(--secondry-color);
+}
 /* about sectation */
 .about-sectation {
   height: 100vh;
