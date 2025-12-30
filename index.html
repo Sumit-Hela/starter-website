@@ -27,53 +27,40 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   </head>
   <body>
-    <!-- hero-section started-->
-    <div class="hero-section">
-      <!-- nav started -->
-      <div class="nav">
-        <div class="nav-elements">
+
+    <!-- header started  -->
+     <div class="header">
+      <!-- navbar started -->
+       <div class="nav">
+        <div class="nav-wrapper">
           <div class="logo"><h2>Codenest</h2></div>
-          <div class="nav-links">
-            <ul>
-              <li><a href="#"></a> home</li>
-              <li><a href="#"></a>about</li>
-              <li><a href="#"></a>projects</li>
-              <li><a href="#"></a>contact</li>
-            </ul>
-          </div>
+          <div class="nav-links"><ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">projects</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">conatcts</a></li>
+          </ul></div>
         </div>
-      </div>
-      <!-- nav ended -->
-      <!-- main started -->
-      <div class="main">
-        <div class="text-wrapper">
-          <div class="announcement">
-            <p>
-              Announcing our web based play ground soon.
-              <a href="#"
-                >read more <i class="fa-solid fa-arrow-right-long"></i
-              ></a>
-            </p>
-          </div>
-          <div class="greetings"><h3>hello i'm</h3></div>
-          <div class="my-name"><h1>sumit hela</h1></div>
-          <div class="qualificattaion">
-            <div class="still"><h3>i'm</h3></div>
-            <div class="moveing"><span id="element"></span></div>
-          </div>
-          <div class="cta">
-            <a href="#">More about me</a>
-            <div class="social">
-              <div class="github"><img src="./vault/github.png" alt=""></div>
+       </div>
+      <!-- navbar ended -->
+       <!-- main stared -->
+        <div class="main">
+          <div class="text-side">
+            <h2>hello i'm</h2>
+            <h1>sumt hela</h1>
+            <div class="btn">
+              <a href="#">mor about me</a>
             </div>
           </div>
+          <div class="img-side">
+            <div class="img"><img src="./vault/undraw_welcoming_42an.svg" alt=""></div>
+          </div>
         </div>
-      </div>
-      <!-- main ended -->
-    </div>
-    <!-- hero section  ended -->
-
-    <script>
+       <!-- main ended -->
+     </div>
+    <!-- header ended  -->
+     
+        <script>
       var typed = new Typed("#element", {
         strings: ["Front-End Developer", "Graphic Designer"],
         typeSpeed: 40, // typing speed in milliseconds
