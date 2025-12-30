@@ -72,21 +72,21 @@ body{
 }
 .text-wrapper{
   height: 100%;
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding-top: 50px;
 }
 .announcement{
-  width: 60%;
+  width: 35%;
   height: 7%;
   text-align: center;
   border: 1px solid var(--icon);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   border-radius: 50px;
 }
 .announcement p{
@@ -102,47 +102,91 @@ body{
   color: var(--blue);
 }
 .greetings{
-  width: 60%;
-  height: 8%;
+  width: 90%;
+  height: 10%;
+  margin-bottom: 7px;
 }
 .greetings h3{
-  font-size: 20px;
+  font-size: 30px;
   padding-top: 10px;
   font-family: Poppins;
   font-weight: 500;
 }
 .my-name{
-  width: 60%;
-  height: 13%;
+  width: 90%;
+  height: 15%;
   display: flex;
   align-items: center;
+  margin-bottom: 7px;
 }
 .my-name h1{
   text-transform: capitalize;
-  font-size: 60px;
+  font-size: 70px;
   font-family: Poppins;
   color: var(--blue);
 }
 .qualificattaion{
-  width: 60%;
-  height: 10%;
-  background-color: blue;
+  width: 90%;
+  height: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.qualificattaion .still{
+  width: 3%;
+  height: 100%;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.qualificattaion .still{
-  width: 30%;
-  height: 100%;
-  background-color: lightblue;
+.qualificattaion .still h3{
+  font-weight: 600;
+  font-family: Poppins;
+  text-transform: capitalize;
+  /* padding-right: 20px; */
 }
 .qualificattaion .moveing{
-  width: 70%;
+  width: 97%;
   height: 100%;
-  background-color: rgb(14, 40, 49);
+  display: flex;
+  align-items: center;
+  font-family: Poppins;
+  padding-left: 10px;
+}
+.qualificattaion .moveing span{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: var(--blue);
 }
 .cta{
-  width: 60%;
+  width: 90%;
   height: 10%;
-  background-color: purple;
+  display: flex;
+  align-items: center;
+}
+.cta a{
+  background-color: var(--blue);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.cta .social{
+  height: 100%;
+  width: 30%;
+  margin-left: 20px;
+  display: flex;
+}
+.social .github{
+  height: 100%;
+  width: 12%;
+  margin-right: 20px;
+}
+.github img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
 }

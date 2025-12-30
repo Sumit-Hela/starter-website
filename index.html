@@ -1,55 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <!-- links  stared -->
-   <link rel="stylesheet" href="./style.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-<script src="https://kit.fontawesome.com/4daa33aab8.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <!-- hero-section started-->
-   <div class="hero-section">
-  <!-- nav started -->
-  <div class="nav">
-    <div class="nav-elements">
-      <div class="logo"><h2>Codenest</h2></div>
-      <div class="nav-links">
-        <ul>
-          <li><a href="#"></a> home</li>
-          <li><a href="#"></a>about</li>
-          <li><a href="#"></a>projects</li>
-          <li><a href="#"></a>contact</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- nav ended -->
-   <!-- main started -->
-    <div class="main">
-      <div class="text-wrapper">
-        <div class="announcement"><p>Announcing our web based play ground soon. <a href="#">read more <i class="fa-solid fa-arrow-right-long"></i></a></p></div>
-        <div class="greetings"><h3>hello i'm</h3></div>
-        <div class="my-name"> <h1>sumit hela</h1></div>
-        <div class="qualificattaion">
-          <div class="still"></div>
-          <div class="moveing">y</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- links  stared -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4daa33aab8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <!-- hero-section started-->
+    <div class="hero-section">
+      <!-- nav started -->
+      <div class="nav">
+        <div class="nav-elements">
+          <div class="logo"><h2>Codenest</h2></div>
+          <div class="nav-links">
+            <ul>
+              <li><a href="#"></a> home</li>
+              <li><a href="#"></a>about</li>
+              <li><a href="#"></a>projects</li>
+              <li><a href="#"></a>contact</li>
+            </ul>
+          </div>
         </div>
-        <div class="cta"></div>
       </div>
-    </div>
-    <!-- main ended -->
-
+      <!-- nav ended -->
+      <!-- main started -->
+      <div class="main">
+        <div class="text-wrapper">
+          <div class="announcement">
+            <p>
+              Announcing our web based play ground soon.
+              <a href="#"
+                >read more <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </p>
+          </div>
+          <div class="greetings"><h3>hello i'm</h3></div>
+          <div class="my-name"><h1>sumit hela</h1></div>
+          <div class="qualificattaion">
+            <div class="still"><h3>i'm</h3></div>
+            <div class="moveing"><span id="element"></span></div>
+          </div>
+          <div class="cta">
+            <a href="#">More about me</a>
+            <div class="social">
+              <div class="github"><img src="./vault/github.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- main ended -->
     </div>
     <!-- hero section  ended -->
-</body>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Front-End Developer", "Graphic Designer"],
+        typeSpeed: 40, // typing speed in milliseconds
+        backSpeed: 40, // backspacing speed in milliseconds
+        backDelay: 1500, // time before backspacing in milliseconds
+        loop: true, // set to true for infinite loop
+      });
+    </script>
+  </body>
 </html>
