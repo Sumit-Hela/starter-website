@@ -11,8 +11,8 @@
   /* --slate: #183153;
   --icon: #616D8A;
   --blue: #0e9fff;
-  --light-yellow: #fdfdfd;
-  --purple: #6C63FF; */
+  --light-yellow: #fdfdfd;*/
+  --purple: #6C63FF;
   --background : #F9FAFF;
   --text: #1F1F2E;
   --Buttons: #E6E7F2;
@@ -70,8 +70,11 @@ body{
   align-items: center;
   justify-content: center;
 }
-.nav-links li{
+.nav-links ul li{
   padding: 20px;
+}
+.nav-links ul li a:hover{
+  color: var(--purple);
 }
 /* nav-ended */
 /* main stared */
@@ -85,7 +88,47 @@ body{
 .text-side{
   width: 50%;
   height: 100%;
-  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+.text-side h2{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: -20px;
+  padding-left: 10px;
+}
+.text-side h1{
+  font-family: Poppins;
+  font-size: 70px;
+  text-transform: capitalize;
+  color: var(--purple);
+}
+.text-side .btn{
+  height: 13%;
+  width: 100%;
+  display: flex;
+}
+.text-side .btn .cta{
+  height: 100%;
+  width: 55%;
+}
+.text-side .btn .cta a{
+  background-color: var(--background);
+  padding: 20px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+}
+.text-side .btn .cta a:hover{
+  background-color: var(--purple);
+  color: var(--background);
+}
+.btn .cta img{
+  width: 35px;
+  height: 35px;
+  margin-bottom: -8px;
 }
 .img-side{
   width: 50%;
