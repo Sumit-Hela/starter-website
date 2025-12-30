@@ -1,62 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <!-- links  stared -->
+   <link rel="stylesheet" href="./style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+<script src="https://kit.fontawesome.com/4daa33aab8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="main">
-    <!-- navbar start -->
-    <div class="navbar">
-       <nav class="nav">
-        <div class="nav__logo">Codenest</div>
-        <a href="#" class="nav__hamburger">
-          <span class="nav__hamburger__line"></span>
-          <span class="nav__hamburger__line"></span>
-          <span class="nav__hamburger__line"></span>
-        </a>
-        <div class="nav__menu">
-          <ul>
-            <li class="nav__menu__link"><a href="#home">Home</a></li>
-            <li class="nav__menu__link"><a href="#about">About</a></li>
-            <li class="nav__menu__link"><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <!-- navbar end -->
-     <div class="info-area">
-      <div class="info-text-area">
-        <div class="greatings"><h2>hello, it's me</h2></div>
-        <div class="name"><h1>sumit hela.</h1></div>
-        <div class="type-animatation">
-          <div class="fixed-text"><h2>and i'm</h2></div>
-          <div class="animate"><span id="element"></span></div>
-        </div>
-        <div class="btns">h</div>
+  <!-- hero-section started-->
+   <div class="hero-section">
+  <!-- nav started -->
+  <div class="nav">
+    <div class="nav-elements">
+      <div class="logo"><h2>Codenest</h2></div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="#"></a> home</li>
+          <li><a href="#"></a>about</li>
+          <li><a href="#"></a>projects</li>
+          <li><a href="#"></a>contact</li>
+        </ul>
       </div>
-      <div class="info-img-area"><img src="./vault/avataaars.png" alt=""></div>
-     </div>
-   
+    </div>
   </div>
-  <div class="about-sectation"></div>
+  <!-- nav ended -->
+   <!-- main started -->
+    <div class="main">
+      <div class="text-wrapper">
+        <div class="announcement"><p>Announcing our web based play ground soon. <a href="#">read more <i class="fa-solid fa-arrow-right-long"></i></a></p></div>
+        <div class="greetings"><h3>hello i'm</h3></div>
+        <div class="my-name"> <h1>sumit hela</h1></div>
+        <div class="qualificattaion"></div>
+        <div class="cta"></div>
+      </div>
+    </div>
+    <!-- main ended -->
 
-  <!-- javascript- start -->
-    <script src="./script.js"></script>
-     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-     <!-- typed js -->
-     <script>
-      var typed = new Typed('#element', {
-      strings: ['A Front-End Developer.','A Graphics Designer.'],
-      typeSpeed: 60,
-      backSpeed :60,
-      loop:true
-    });
-     </script>
+    </div>
+    <!-- hero section  ended -->
 </body>
 </html>
